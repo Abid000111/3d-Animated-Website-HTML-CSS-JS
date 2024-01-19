@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    background-color: #1137CA;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1 video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: right bottom;
+    position: absolute;
+    z-index: -1;
+}
+
+#page1 nav{
+    height: 12.5vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#page1 nav img{
+    height: 3.5vw;
+    width: 3.5vw;
+    position: absolute;
+    left: 3.9vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#page1 nav #book{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 20vw;
+    position: absolute;
+    right: 13vw;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2.4vw;
+    width: 8.5vw;
+    font-size: 0.9vw;
+    font-weight: 900;
+    color: white;
+}
+
+#page1 nav #menu{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    height: 2.3vw;
+    width: 5vw;
+    border-radius: 20vw;
+    background-color: transparent;
+    position: absolute;
+    right: 6vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.7vh;
+}
+
+#bottom-page1{
+    background-color: transparent;
+    position: absolute;
+    bottom: 7.3%;
+    left: 8.8%;
+    line-height: 1.1;
+    color: white;
+}
+
+#bottom-page1 h1{
+    font-size: 6vw;
+    font-weight: 600;
+}
+
+#bottom-page1 #div-h4{
+    line-height: 1.8;
+}
+
+#bottom-page1 h4{
+    font-size: 1.3vw;
+    margin-top: 45px;
+}
+
+#bottom-page1 button{
+    background-color: white;
+    border: none;
+    color: rgb(27, 27, 122);
+    position: absolute;
+    font-size: 1vw;
+    font-weight: 900;
+    right: 8%;
+    bottom: 2.6vh;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 10vw;
+}
+
+#page2{
+    color: white;
+    height: 70vh;
+    width: 100vw;
+    background-color: #1437D0;
+    position: relative;
+    padding: 120px;
+    line-height: 1.15;
+}
+
+#page2 h1{
+    font-size: 4vw;
+    margin-top: 2.5vw;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0B3DD0;
+}
+
+#page3 canvas{
+    max-height: 100vh;
+    width: 100vw;
+    position: relative; 
+}
+
+#page4{
+    height: 80vh;
+    width: 100vw;
+    background-color: #1137CA;
+    position: relative;
+    padding-left: 120px;
+    padding-top: 0;
+    line-height: 1.15;
+    color: white;
+}
+
+#page4 h1{
+    font-size: 4vw;
+    margin-top: 2.5vw;
+    color: rgba(255, 255, 255, 0.445);
+}
+#page5 canvas{
+    max-height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page6{
+    height: 60vh;
+    width: 100vw;
+    background-color: #0d35c4;
+    position: relative;
+    padding-left: 120px;
+    padding-top: 0;
+    line-height: 1.15;
+    color: white;
+}
+
+#page6 h1{
+    font-size: 4vw;
+    margin-top: 2.5vw;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+#page7 canvas{
+    max-height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page7-cir{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    height: 13vw;
+    width: 13vw;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+}
+
+#page7-cir-inner{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.795);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+#page8{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page8 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#page8-bottom{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page8-bottom h1{
+    font-size: 6vw;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#page8-bottom button{
+    height: 3vw;
+    width: 10vw;
+    border-radius: 20vw;
+    background-color: white;
+    color: rgb(32, 32, 155);
+    font-size: 1vw;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+}
+
+#page9{
+    height: 200vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    background-color: #03268E;
+}
+
+#page9 #left-div{
+    height: 100%;
+    width: 33%;
+    line-height: 1.1;
+    margin-top: 200px;
+}
+
+#page9 #left-div h1{
+    font-size: 6vw;
+    padding-left: 110px;
+    color: white;
+}
+
+#page9 #right-div{
+    margin-top: 200px;
+    height: 100%;
+    width: 77%;
+    position: relative;
+    padding-left: 100px;
+}
+
+#page9 #right-div img{
+    width: 54vw;
+    border-radius: 30px;
+}
+
+#page9 #right-div #box1{
+    height: 26vh;
+    padding: 10px;
+    line-height: 2;
+    margin-top: 60px;
+    color: white;
+}
+
+#page9 #right-div #box2{
+    height: 32vh;
+    padding: 10px;
+    line-height: 2;
+    margin-top: 30px;
+    color: white;
+}
+
+#page9 #right-div #box3{
+    height: 27.5vh;
+    padding: 10px;
+    line-height: 2;
+    color: white;
+    margin-top: 45px;
+}
+
+#page10{
+    position: relative;
+    height: 200vh;
+    width: 100vw;
+    background-color: #03268E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#page10 canvas{
+    max-height: 100vh;
+    object-fit: contain;
+    /* object-position: top; */
+    position: relative;
+    top: 5%;
+    right: 10%;
+    transform: translateY(-5%);
+}
+
+#page10 #page10-start h1{
+    font-size: 6vw;
+    padding-left: 165px;
+}
+
+#page10-box1{
+    margin-top: 140px;
+    padding-left: 190px;
+}
+
+#page10-box1 h1{
+    font-size: 3vw;
+}
+
+#page10-box2{
+    margin-top: 140px;
+    padding-left: 190px;
+}
+
+#page10-box2 h1{
+    font-size: 3vw;
+}
+
+#page10-box3{
+    margin-top: 140px;
+    padding-left: 190px;
+}
+
+#page10-box3 h1{
+    font-size: 3vw;
+}
+
+#page10-box4{
+    margin-top: 140px;
+    padding-left: 190px;
+}
+
+#page10-box4 h1{
+    font-size: 3vw;
+}
